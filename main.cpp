@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "ex1.cpp"
 int main(int, char**){
-    printf("Hello, from ss-hw2!\n");
+    Ex1();
 }
