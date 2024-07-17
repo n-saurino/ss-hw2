@@ -37,9 +37,9 @@ int Ex3(){
     // std::variant example
     std::variant<int, double> variant_ex;
     variant_ex = 42;
-    std::cout << std::get<0>(variant_ex) << std::endl;
+    std::cout << std::get<int>(variant_ex) << std::endl;
     variant_ex = 42.2;
-    std::cout << std::get<1>(variant_ex) << std::endl;
+    std::cout << std::get<double>(variant_ex) << std::endl;
 
     return 0;
 }
