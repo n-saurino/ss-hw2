@@ -82,4 +82,5 @@ int Ex2(){
     // checking if a value is in a set in O(1) time
     std::cout << (us.find(7) != us.end() ? 7 : static_cast<char>(-1))  << std::endl;
 
+    return 0;
 }
